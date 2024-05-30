@@ -1,0 +1,126 @@
+数据结构
+
+数组&双指针
+1.LeetCode 1.两数之和
+2.LeetCode 4.寻找两个正序数组的中位数
+3.LeetCode 15.三数之和
+4.LeetCode 75.颜色分类
+5.LeetCode 76.最小覆盖子串
+6.LeetCode 142.环形链表 
+7.LeetCode 234.回文链表
+8.LeetCode 283.移动零
+
+链表
+1.LeetCode 19.删除链表的倒数第N个结点
+2.LeetCode 148.排序链表
+3.LeetCode 160.相交链表
+4.LeetCode 206.反转链表
+
+队列&栈
+1.LeetCode 20.有效的括号
+2.LeetCode 21.合并两个有序的链表
+3.LeetCode 84.柱状图中最大的矩形
+4.LeetCode 85.最大矩形
+5.LeetCode 155.最下栈
+6.LeetCode 239.滑动窗口最大值
+7.LeetCode 394.字符串解码
+8.LeetCode 739.每日温度
+9.LeetCode 3.无重复字符的最长子串
+
+哈希表
+1.LeetCode 49.字母异位词分组
+2.LeetCode 128.最长子序列
+3.LeetCode 141.环形链表
+4.LeetCode 146.LRU缓存机制
+5.LeetCode 560.和为k的子数组
+
+二叉树
+1.LeetCode 94.二叉树的中序遍历
+2.LeetCode 101.对称二叉树
+3.LeetCode 102.二叉树的层序遍历
+4.LeetCode 104.二叉树的最大深度
+5.LeetCode 114.二叉树展开为链表
+6.LeetCode 543.二叉树的直径
+
+二叉搜索树
+1.LeetCode 96.不同的二叉搜索树
+2.LeetCode 98.验证二叉搜索树
+
+算法
+
+模拟
+1.LeetCode 48.旋转的图像
+
+贪心
+1.LeetCode 11.成水最多的容器
+2.LeetCode 714.买卖股票的最佳时机含手续费
+3.LeetCode 122.买卖股票的最佳时机2
+4.LeetCode 55.跳跃游戏
+5.LeetCode 309.最佳买卖股票时机含冷冻期
+6.LeetCode 406.根据身高重建队列
+
+二分
+1.LeetCode 33.搜索螺旋排序数组
+2.LeetCode 34.在排序数组中查找元素的第一个和最后一个位置
+
+递归&回溯
+1.LeetCode 17.电话号码的字母组合
+2.LeetCode 22.括号的组成
+3.LeetCode 39.组合总和
+4.LeetCode 46.全排列
+5.LeetCode 78.子集
+6.LeetCode 79.单词搜索
+7.LeetCode 226.翻转二叉树
+
+深度优先搜索DFS
+1.LeetCode 236.二叉树的最近共同祖先
+2.LeetCode 301.删除无效的括号
+
+宽度优先搜索
+1.LeetCode 200.岛屿的数量
+2.LeetCode 617.合并二叉树
+
+分治
+1.LeetCode 53.最大子序列和
+
+排序算法
+1.LeetCode 56.合并区间
+2.LeetCode 215.数组中的第K大最大元素
+3.LeetCode 347.前K个高频元素
+
+Manacher算法
+1.LeetCode 5.最长回文子串
+2.LeetCode 647.回文子串
+
+字典树Trie
+1.LeetCode 139.单词拆分
+2.LeetCode 208.实现Trie(前缀树)
+
+动态规划
+1.LeetCode 10.正则表达式匹配
+2.LeetCode 32.最长有效括号
+3.LeetCode 42.接雨水
+4.LeetCode 62.不同路径
+5.LeetCode 64.最小路径
+6.LeetCode 70.爬楼梯
+7.LeetCode 72.编辑距离
+8.LeetCode 139.单词拆分
+9.LeetCode 152.乘积最大子数组
+10.LeetCode 198.打家劫舍
+11.LeetCode 221.最大正方形
+12.LeetCode 300.最长递增子序列
+13.LeetCode 337.打家劫舍2
+14.LeetCode 416.分割等和子集
+15.LeetCode 494.目标和
+
+最短路径算法
+1.LeetCode 743.网络延迟时间
+
+最小生成树
+1.LeetCode 1584.链接所有点的最小费用
+ 
+拓扑排序
+1.LeetCode 207.课程表
+
+并查集
+1.Leetcode 399.除法求值

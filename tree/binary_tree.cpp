@@ -73,13 +73,32 @@ bool TreeNode<T>::Erase(const T  &x, shared_ptr<TreeNode<T>> &pre_ptr){
 template <typename T>
 int TreeNode<T>::Show(vector<vector<string>> &pic, int dep) const{
     int this_string_length = to_string(data_).size(); 
-    int stare = pic.size(), sl, sr, ret;
+    int start = pic.size(), sl, sr, ret;
 
-    if(left() != nullptr) {
+    string line;
+    for(int i=0; i<this_string_length; i++) line = "-" + line;
+
+    if(left() != nullptr){
         sl = left()->Show(pic, dep-1);
     } else {
-        pic.push_back( vector<string>{' ', "null"} );
+        pic.push_back( vector<string>{"", "null"} );
+        sl = pic.size() - 1;
     }
+    pic.push_back( vector<string>{"", to_string(data_)} );
+    ret = pic.size() - 1;
+    if(right() != nullptr){
+        sr = right()->Show(pic, dep-1);
+    } else {
+        pic.push_back( vector<string>{"", "null"} );
+        sr = pic.size() - 1;
+    }
+
+    for(int i = start; i < sl; i++) pic[i][0] = string(this_string_length+1, ' ') + pic[i][0];
+    pic[sl][0] = "└" + line + pic[sl][0];
+    for(int i = sl + 1; i < sr; i++) pic[i][0] = "|" + string(this_string_length, ' ') + pic[i][0];
+    pic[ret][0] = "";
+    pic[sr][0] = "┌" + line + pic[sr][0];
+    for(int i = sr + 1; i<pic.size(); i++) pic[i][0] = string(this_string_length+1, ' ') + pic[i][0];
 }
 
 template <typename T>
@@ -92,6 +111,5 @@ class Tree{
     private:
         shared_ptr<TreeNode<T>> root_;
 };
-
 
 
