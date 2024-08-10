@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 #include <climits>
-#include "PriorityQueue.h"
+#include "../priorityqueue/PriorityQueue.h"
 #include <list>
 
 struct edge{

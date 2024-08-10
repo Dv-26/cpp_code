@@ -59,6 +59,7 @@ int main() {
     root.Insert(90);
     root.Insert(101);
     root.Insert(1024);
+    root.Erase(1024);
     root.Show();
 }
 
